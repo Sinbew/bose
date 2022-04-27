@@ -23,12 +23,13 @@ p {
   padding: 0;
 }
 .wrapper {
-  height: 200vh;
+  height: 100vh;
 }
 
 .section {
   margin: 0 auto;
   padding: 100px 0;
+  padding-bottom: 100vh;
 }
 
 .container {
@@ -63,6 +64,8 @@ p {
 
 .radio-group {
   margin-bottom: 50px;
+
+  cursor: pointer;
 }
 .radio {
   position: absolute;
@@ -98,6 +101,7 @@ p {
   border: 3px solid transparent;
 
   transition: 400ms ease;
+  cursor: pointer;
 }
 
 .btn-black {
